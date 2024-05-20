@@ -44,6 +44,16 @@
             key-positions = <11 12 13>;
             bindings = <&tog TVP1>;
         };
+
+        gamong {
+            bindings = <&to 6>;
+            key-positions = <15 16 17 18>;
+        };
+
+        zero {
+            bindings = <&to 0>;
+            key-positions = <11 12 13 14>;
+        };
     };
 
     macros {
@@ -219,6 +229,15 @@
         &trans       &kp LS(LEFT)  &kp LC(F17)   &kp LS(RIGHT)  &kp RET        &trans  &kp F4  &kp F5  &kp F6  &kp F11
 &trans  &kp J        &kp LS(C)     &kp LC(F16)   &kp LS(V)      &kp LC(F15)    &trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans
                                    &trans        &kp LC(F12)    &kp LC(F11)    &trans  &trans  &trans
+            >;
+        };
+
+        layer_6 {
+            bindings = <
+        &kp LCTRL  &kp Q  &kp W   &kp E   &kp R        &trans  &trans  &trans  &trans  &trans
+        &kp LSHFT  &kp A  &kp S   &kp D   &kp F        &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &kp Z  &kp X   &kp C   &kp V        &trans  &trans  &trans  &trans  &trans  &trans
+                          &kp N1  &kp N2  &kp SPACE    &trans  &trans  &trans
             >;
         };
     };
