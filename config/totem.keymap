@@ -41,7 +41,7 @@
 
         gaming {
             bindings = <&tog 4>;
-            key-positions = <11 12 13 10>;
+            key-positions = <11 12 13>;
         };
 
         three {
