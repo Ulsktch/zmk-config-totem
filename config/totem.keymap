@@ -192,10 +192,10 @@
 
         GAME {
             bindings = <
-        &kp LCTRL  &kp Q  &kp W   &kp E   &kp R        &trans  &trans  &trans  &trans  &trans
-        &kp LSHFT  &kp A  &kp S   &kp D   &kp F        &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &kp Z  &kp X   &kp C   &kp V        &trans  &trans  &trans  &trans  &trans  &trans
-                          &kp N1  &kp N2  &kp SPACE    &trans  &trans  &trans
+        &kp LCTRL  &kp Q  &kp W   &kp E         &kp R        &trans  &trans  &trans  &trans  &trans
+        &kp LSHFT  &kp A  &kp S   &kp D         &kp F        &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &kp Z  &kp X   &kp C         &kp V        &trans  &trans  &trans  &trans  &trans  &trans
+                          &kp N1  &kp NUMBER_1  &kp SPACE    &trans  &trans  &trans
             >;
         };
     };
