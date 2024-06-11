@@ -46,7 +46,7 @@
 
         three {
             bindings = <&kp NUMBER_3>;
-            key-positions = <33 1>;
+            key-positions = <33 10>;
             layers = <4>;
         };
 
@@ -58,7 +58,7 @@
 
         four {
             bindings = <&kp NUMBER_4>;
-            key-positions = <33 10>;
+            key-positions = <33 21>;
             layers = <4>;
         };
     };
