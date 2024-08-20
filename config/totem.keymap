@@ -61,6 +61,11 @@
             key-positions = <33 21>;
             layers = <4>;
         };
+
+        ddd {
+            bindings = <&tog 3>;
+            key-positions = <12 13 24>;
+        };
     };
 
     macros {
